@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: #fff;
+}
+
+.crypto-card {
+  min-width: 25rem;
+  background-color: #1e1e1e;
+  border-color: #007acc;
+  border-width: 3px;
+  color: #fff;
+}
+
+.select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
