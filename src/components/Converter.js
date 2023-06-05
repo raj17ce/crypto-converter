@@ -20,7 +20,7 @@ function Converter() {
 
   useEffect(() => {
 
-    if (cryptoList.length == 0) return;
+    if (cryptoList.length === 0) return;
 
     const firstRate = cryptoList.find((item) => {
       return item.value === firstSelect;
@@ -33,7 +33,7 @@ function Converter() {
     const tempResult = (inputValue * secondRate) / firstRate;
     setResult(tempResult.toFixed(2));
 
-  }, [inputValue, firstSelect, secondSelect]);
+  }, [inputValue, firstSelect, secondSelect, cryptoList]);
 
   async function fetchData() {
     const res = await fetch(apiURL);
