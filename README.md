@@ -2,7 +2,7 @@
 
 ### [Live Link](https://raj17ce-crypto-converter.netlify.app/)
 
-#### • This WebApp converts the value of a CryptoCurrency in another Crypto or Fiat Currency.
+#### This WebApp converts the value of a CryptoCurrency in another Crypto or Fiat Currency.
 
 ## Functionalities
 
@@ -14,7 +14,7 @@
 
   > 4 Bitcoin = 57.10 Ether
 
-## TechStack
+## Tech Stack
 
 - [ReactJS](https://react.dev/) for creating the single page UI.
 
@@ -25,6 +25,12 @@
 - [CoinGecko](https://apiguide.coingecko.com/) API for fetching real time crypto rates.
 
 - JavaScript for making API calls and logic implementation.
+
+## Video Demo
+
+Click on this thumbnail to watch the video.
+
+[![Watch the video](./public/screenshot.png)](https://youtu.be/m0FDbjafVgM)
 
 ## ScreenShot
 

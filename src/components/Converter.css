@@ -8,7 +8,7 @@
 }
 
 .crypto-card {
-  min-width: 25rem;
+  width: 25rem;
   background-color: #1e1e1e;
   border-color: #007acc;
   border-width: 3px;
@@ -19,5 +19,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
+}
+
+.select-option {
+  width: 12.5rem;
+}
+
+@media screen and (max-width: 620px) {
+  .crypto-card {
+    width: 80%;
+  }
+
+  .select-box {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .select-option {
+    width: 100%;
+  }
 }

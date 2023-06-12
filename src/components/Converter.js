@@ -60,8 +60,8 @@ function Converter() {
           </Form.Item>
         </Form>
         <div className="select-box">
-          <Select onChange={(value) => setFirstSelect(value)} style={{ width: "12.5rem" }} defaultValue={firstSelectDefault} options={cryptoList} />
-          <Select onChange={(value) => setSecondSelect(value)} style={{ width: "12.5rem" }} defaultValue={secondSelectDefault} options={cryptoList} />
+          <Select className="select-option" onChange={(value) => setFirstSelect(value)} defaultValue={firstSelectDefault} options={cryptoList} />
+          <Select className="select-option" onChange={(value) => setSecondSelect(value)} defaultValue={secondSelectDefault} options={cryptoList} />
         </div>
         <p>{inputValue} {firstSelect} = {result} {secondSelect}</p>
       </Card>
